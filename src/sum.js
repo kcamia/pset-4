@@ -7,14 +7,18 @@ console.log("");
 let lower = -1;
 let upper = 0;
 do {
-  lower = readlineSync.question("Lower bound: ");
-  upper = readlineSync.question("Upper bound: ");
+  lower = Number(readlineSync.question("Lower bound: "));
+  upper = Number(readlineSync.question("Upper bound: "));
 } while (lower >= upper || lower < MIN || upper > MAX);
 
-let sum = 0;
+let number = lower;
 do {
+  
+} while (number >= lower || number <= upper);
 
-} while ();
+for (let number ; number <= upper; number++) {
+
+}
 
 
 
