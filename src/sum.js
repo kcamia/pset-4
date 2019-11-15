@@ -9,17 +9,19 @@ let upper = 0;
 do {
   lower = Number(readlineSync.question("Lower bound: "));
   upper = Number(readlineSync.question("Upper bound: "));
-} while (lower >= upper || lower < MIN || upper > MAX);
+} while (lower > upper || lower < MIN || upper > MAX || !Number.isInteger(lower) || !Number.isInteger(upper));
 
-let number = lower;
-do {
-  
-} while (number >= lower || number <= upper);
+let test = lower % 2;
 
-for (let number ; number <= upper; number++) {
-
+if (test != 0) {
+  lower = lower + 1;
 }
 
+let sum = 0;
+for (let i = lower; i <= upper; i = i + 2) {
+  sum = sum + i;
+}
 
+let display = sum.toLocaleString("en");
 
 console.log("\n" + display + ".")
