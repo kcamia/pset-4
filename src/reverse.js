@@ -7,8 +7,9 @@ console.log("");
 let integer = 0;
 do {
   integer = readlineSync.question("Positive integer: ");
-} while (integer < MIN || integer > MAX );
+} while (integer < MIN || integer > MAX || !Number.isInteger(integer));
 
-// print in reverse order
+
+
 
 console.log("\n" + integer)
