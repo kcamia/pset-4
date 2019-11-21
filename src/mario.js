@@ -7,11 +7,6 @@ console.log("")
 let height = 0;
 do {
   height = readlineSync.question("Height: ")
-} while (height < MIN || height > MAX);
+} while (height < MIN || height > MAX || !Number.isInteger(height));
 
-let star = 2;
-let blank = 0;
-do {
-  blank = height - star;
-
-}
+console.log("");
