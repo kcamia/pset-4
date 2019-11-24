@@ -22,3 +22,5 @@ do {
 } while (input > 0);
 
 console.log("\n" + reverse + ".");
+
+console.log("");

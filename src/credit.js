@@ -4,7 +4,7 @@ const MIN = 1000000000000;
 const MAX = 9999999999999999;
 
 let input = 0;
-console.log("")
+console.log("");
 do {
   input = Number(readlineSync.question("Number: "));
 } while (input < MIN || input > MAX || !Number.isInteger(input));
@@ -79,11 +79,13 @@ if (test = false) {
 } else if (length == 15 && (startingDigits == 34 || startingDigits == 37)) {
   console.log("\nAmex.");
 } else if (length == 16 && (startingDigits == 51 || startingDigits == 52 || startingDigits == 53 || startingDigits == 54 || startingDigits == 55)) {
-  console.log("\nMastercard.")
+  console.log("\nMastercard.");
 } else if (length == 16 && visaStartingDigits == 4) {
-  console.log("\nVisa.")
+  console.log("\nVisa.");
 } else if (length == 13 && visaStartingDigits == 4) {
-  console.log("\nVisa.")
+  console.log("\nVisa.");
 } else {
-  console.log("\nInvalid.")
+  console.log("\nInvalid.");
 }
+
+console.log("");

@@ -23,3 +23,5 @@ do {
 } while (input > 0);
 
 console.log("\n" + sum + ".")
+
+console.log("");

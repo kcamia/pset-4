@@ -25,3 +25,5 @@ for (let i = lower; i <= upper; i = i + 2) {
 let display = sum.toLocaleString("en");
 
 console.log("\n" + display + ".")
+
+console.log("");

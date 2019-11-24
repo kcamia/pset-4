@@ -21,7 +21,9 @@ if (input == 0) {
 } else if (input == 1) {
   console.log("\nNot prime.");
 } else if (prime == true) {
-  console.log("\nPrime.")
+  console.log("\nPrime.");
 } else {
-  console.log("\nNot prime.")
+  console.log("\nNot prime.");
 }
+
+console.log("");

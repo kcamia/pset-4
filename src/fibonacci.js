@@ -18,3 +18,5 @@ let goldenRule = Math.ceil(goldenRuleTwo);
 let fibonacciNumber = goldenRule.toLocaleString("en");
 
 console.log("\n" + fibonacciNumber + ".")
+
+console.log("");

@@ -25,3 +25,5 @@ for (test = 1; test < (input / 2); test = test + 1) {
 }
 
 console.log("\n" + display + ".")
+
+console.log("");

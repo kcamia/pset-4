@@ -3,7 +3,7 @@ const readlineSync = require("readline-sync");
 const MIN = 1;
 const MAX = 24;
 
-console.log("")
+console.log("");
 let height = 0;
 do {
   height = Number(readlineSync.question("Height: "));
@@ -30,3 +30,5 @@ for (let row = 0; row < height; row = row + 1) {
     console.log(display);
     starDisplay = starDisplay + 1;
 }
+
+console.log("");

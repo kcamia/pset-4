@@ -19,3 +19,5 @@ let average = sum / amount;
 average = average.toLocaleString("en", {minimumFractionDigits: 3, maximumFractionDigits: 3});
 
 console.log("\n" + average + ".");
+
+console.log("");
